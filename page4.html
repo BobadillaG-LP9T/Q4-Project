@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<title>Featured Celebrities</title>
+	<style type="text/css">
+		h1{
+			font-size: 25px;
+			font-family: Segoe Print;
+			font-weight: light;
+			color: white;
+			background-color: #753C45;
+			text-align: center;
+			padding-top: ;
+			padding: 20px;
+			padding-bottom: px;
+		}
+		h2{
+			font-size: 50px;
+			font-family: Segoe Script;
+			font-weight: light;
+			color: #4B1A23;
+			text-align: center;
+			padding: 0px;
+			padding-top: 10px;
+		}
+		body{
+			background-color: #FFE4E2;
+			background: url(BG2.png);
+		}
+		#subtitle{
+			font-size: 20px;
+			font-family: Segoe Print;
+			font-weight: light;
+			color: #4B1A23;
+			text-align: center;
+			padding: 0px;
+			padding-bottom: 5px;
+
+		}
+		#desc{
+			font-family: Times New Roman;
+			padding: 10px;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		#imgmain{
+			height: 400px;
+			margin-left: 40px;
+			margin-right: 20px;
+			float: left;
+		}
+		#img{
+			height: 200px;
+			padding: 15px;
+			padding-left: 90px; 
+		}
+		/*I just put padding-left on img and it looked like the weird shape. I think it's good design though.*/
+		#ref{
+			text-align: center;
+			font-size: 13px;
+			margin-top: -10px;
+		}
+		#logo{
+			width: 40px;
+			height: 40px;
+			margin-left: -4px;
+		}
+		#search{
+			margin-left: 640px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark" style="background-color: #000000;"> 
+		<ul class="navbar-nav"> 
+			<li class="nav-item"> 
+				<img src="G.jpg" id="logo">
+			</li> 
+			<li class="nav-item"> 
+				<a class="nav-link" style="color: deeppink;" href="mainpage.html">Back to Main</a> 
+			</li> 
+			<li class="nav-item"> 
+				<a class="nav-link" style="color: pink;" href="page2.html">First Quarter</a> 
+			</li> 
+			<li class="nav-item"> 
+				<a class="nav-link" style="color: pink;" href="page3.html">Second Quarter</a> 
+			</li> 
+			<li class="nav-item"> 
+				<a class="nav-link" style="color: pink;" href="page4.html">Third Quarter</a> 
+			</li> 
+			<li class="nav-item"> 
+				<a class="nav-link" style="color: pink;" href="whatsnext.html">What's Next?</a> 
+			</li> 
+		</ul>
+		<form id="search">
+			<button class="btn btn-light btn-sm" onclick="search()">Search</button>
+			<input type="search">
+		</form>
+	</nav>
+
+	<h1>Today's Featured Celebrity</h1>
+		<h2>Rachelle Ann Go</h2>
+		<p id="subtitle">~ Actress ~</p>
+		<div class="container">
+			<nav class="navbar navbar-expand-sm" style="background-color: #FFEEF2;">
+			<p>Go to <a href="imgmain">Main</a> | <a href="socials">Socials</a></p></nav>
+				<form>
+				<input type="search" class="form-control" placeholder="search celebrities"></form></div>	
+		<br>
+		<img id="imgmain" src="A.jpg" class="img-thumbnail">
+	<p id="desc">Rachelle Ann Villalobos Go (born August 31, 1986) is a Filipino singer and actress. Known primarily for her work in theater, she has starred in musicals on Broadway and West End. She began her career as a pop artist in her native country and has received numerous accolades, including an Aliw Award, a MTV Pilipinas Music Award, two Awit Awards, and five Myx Music Awards. Tatler magazine named her one of the most influential people in Asia in 2021.</p>
+
+	<p id="desc">Go started performing in singing competitions as a child, and first gained recognition after winning the television talent show Search for a Star (2003). She signed with Viva Records in 2004 and released her self-titled debut studio album, supported by the cover single "Don't Cry Out Loud". Go then competed at the 2004 Shanghai Music Festival and the 2005 Astana Song Festival, each winning the Silver Prize and Best Song. Under the record label, she released four more studio albums—I Care (2006), Obsession (2007), Falling in Love (2009), and Unbreakable (2011)—and performed rock-influenced covers in the live album Rachelle Ann Rocks Live! (2008). Apart from music, she took on roles in the television series Diva (2010), Nita Negrita (2011), Biritera (2012), and Indio (2013).</p>
+
+	<p id="desc">On stage, Go made her theater debut in 2011 playing the lead role of Ariel in the local production of The Little Mermaid, and then starred as Jane Porter in the Meralco Theater's staging of Tarzan in 2013. She was cast as Gigi Van Tranh in the West End revival of Miss Saigon in 2014, and later reprised the part on Broadway in 2017. Go originated the role of Elizabeth Schuyler Hamilton in the 2017 West End production of Hamilton, for which she won the BroadwayWorld UK Award for Best Actress in a New Production of a Musical. She has also portrayed Fantine in various productions and tours of Les Misérables, including the show's 30th anniversary at the Sondheim Theater.</p>
+	<br>
+	<br>
+	<div class="container">
+		<div class="row" id="socials"> 
+			<div class="col-md-4" style="background-color: #FFEEF2;">
+			<img id="img" class="rounded-circle" src="B.jpg" alt="FB photo">
+			<p id="ref"><a href="https://www.facebook.com/RachelleAnnGoOfficial/">Facebook</a></p></div>
+
+
+			<div class="col-md-4" style="background-color: #FFEEF2;">
+			<img id="img" class="rounded-circle" src="C.png" alt="IG photo">
+			<p id="ref"><a href="https://www.instagram.com/gorachelleann/feed/?hl=en">Instagram</a></p></div>
+
+
+			<div class="col-md-4" style="background-color: #FFEEF2;">
+			<img id="img" class="rounded-circle"src="D.png" alt="X photo">
+			<p id="ref"><a href="https://twitter.com/gorachelleann?lang=en">X (Twitter)</a></p>
+		</div></div>
+	</div>
+	<br>
+	<div style="text-align: center;">
+	<a href="mainpage.html" id="main"><button class="btn btn-light btn-md">Back to Main</button></a>
+	<br><br>
+	</div>
+	<p id="ref">Related Articles: <br> <a href="https://en.wikipedia.org/wiki/Rachelle_Ann_Go">https://en.wikipedia.org/wiki/Rachelle_Ann_Go</a><br><a href="https://www.tatlerasia.com/people/rachelle-ann-go">https://www.tatlerasia.com/people/rachelle-ann-go</a></p>
+<script type="text/javascript">
+		function search() {
+			window.alert("This doesn't do anything; its just for show");
+		}
+</script>
+</body>
+</html>
